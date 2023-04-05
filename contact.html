@@ -97,6 +97,7 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div
                             class="collapse navbar-collapse"
+                            style="width: 50%; float: right"
                             id="bs-example-navbar-collapse-1"
                         >
                             <ul class="nav navbar-nav">
@@ -334,6 +335,83 @@
                                         >
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                        <div class="message col-md-6">
+                            <div class="message-group">
+                                <h3 class="contact-heading">
+                                    Envoyez-nous un message
+                                </h3>
+
+                                <form
+                                    id="contact-us"
+                                    class="form-message"
+                                    action="http://demo.themenio.com/tranship/form/contact.php"
+                                    method="post"
+                                >
+                                    <div class="form-results"></div>
+                                    <div class="form-group row">
+                                        <div
+                                            class="form-field col-md-6 form-m-bttm"
+                                        >
+                                            <input
+                                                name="contact-name"
+                                                type="text"
+                                                placeholder="Nom & Prénom *"
+                                                class="form-control required"
+                                            />
+                                        </div>
+                                        <div class="form-field col-md-6">
+                                            <input
+                                                name="contact-email"
+                                                type="email"
+                                                placeholder="Email *"
+                                                class="form-control required email"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div
+                                            class="form-field col-md-6 form-m-bttm"
+                                        >
+                                            <input
+                                                name="contact-phone"
+                                                type="text"
+                                                placeholder="Num° Téléphone"
+                                                class="form-control"
+                                            />
+                                        </div>
+                                        <div class="form-field col-md-6">
+                                            <input
+                                                name="contact-service"
+                                                type="text"
+                                                placeholder="Service"
+                                                class="form-control"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="form-field col-md-12">
+                                            <textarea
+                                                name="contact-message"
+                                                placeholder="Message *"
+                                                class="area-from form-control required"
+                                            ></textarea>
+                                        </div>
+                                    </div>
+                                    <input
+                                        type="text"
+                                        class="hidden"
+                                        name="form-anti-honeypot"
+                                        value=""
+                                    />
+                                    <button
+                                        type="submit"
+                                        class="btn solid-btn sb-h"
+                                    >
+                                        Envoyer
+                                    </button>
+                                </form>
                             </div>
                         </div>
                     </div>
