@@ -669,7 +669,7 @@ h1, h2, h3, h4, h5, h6 {
       .banner.carousel-fade .banner-content .banner-text p {
         margin: 20px 0; }
       .banner.carousel-fade .banner-content .banner-text .animated {
-        animation-delay: 350ms;
+        animation-delay: 25ms;
         animation-duration: 1s; }
       .banner.carousel-fade .banner-content .banner-text .btn-banner {
         margin-top: 20px; }
