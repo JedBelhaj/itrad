@@ -42,7 +42,17 @@ font-face {
 /* ==========================================================================
     2.0 Resets
    ========================================================================== */
-:root{
+.langdiv{
+  position: fixed;
+  border: #9a9a9a solid 1px;
+  background-color: #ffffff;
+  min-height: 2rem;
+  margin-top: 73vh;
+  margin-left: 1rem;
+  min-width: 10rem;
+  z-index: 99999;
+}
+   :root{
   --primary: #35a1e5;
 }
 @media (max-width: 375px) {
