@@ -45,7 +45,13 @@ font-face {
 :root{
   --primary: #35a1e5;
 }
-   body {
+@media (max-width: 375px) {
+  .dedou{
+    margin-top: 0!important;
+    height: 3rem!important;
+  }
+}
+body {
   font-family: 'open-sans','sans-serif', 'montserrat';
   font-size: 16px;
   font-weight: 400;
@@ -854,7 +860,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #383838;
     line-height: 24px; }
     .tab-custom .nav-tabs li > a img {
-      height: 60px;
+      max-height: 60px;
       width: auto;
       margin-top: -5px; }
   .tab-custom .nav-tabs li.active > a, .tab-custom .nav-tabs li.active > a:hover, .tab-custom .nav-tabs li.active > a:focus {
