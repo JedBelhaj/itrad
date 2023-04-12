@@ -1,5 +1,6 @@
 (function ($) {
     "use strict";
+
     // Slider
     var $slider = $("#slider");
     if ($slider.length > 0) {

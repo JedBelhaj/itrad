@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="fr">
     <head>
         <title>ITRAD - Contact</title>
         <meta charset="utf-8" />
@@ -47,17 +47,38 @@
     <body>
         <!--lang-->
         <div
-            class="langdiv"
-            style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-            "
+            class="dropup"
+            style="position: fixed; z-index: 999999; right: 2%; bottom: 0"
         >
-            <a style="margin: 1rem" href="index.html"><span>FR</span></a>
-            <a style="margin: 1rem" href="index-eng.html"><span>ENG</span></a>
-            <a style="margin: 1rem" href="index-deu.html"><span>DEU</span></a>
+            <button
+                class="btn btn-default dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+            >
+                <img src="https://flagcdn.com/w20/fr.png" alt="francais" />
+                Français
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="contact-eng.html"
+                        ><img
+                            src="https://flagcdn.com/w20/us.png"
+                            alt="English"
+                        />
+                        English</a
+                    >
+                </li>
+                <li>
+                    <a href="contact-deu.html"
+                        ><img
+                            src="https://flagcdn.com/w20/de.png"
+                            alt="Deutsch"
+                        />
+                        Deutsch</a
+                    >
+                </li>
+            </ul>
         </div>
         <!--end lang-->
         <!-- navbar -->
